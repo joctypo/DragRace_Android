@@ -9,9 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:backgroundTint="#EF437D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,15 +62,15 @@
         android:id="@+id/arriba"
         android:layout_width="55dp"
         android:layout_height="64dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="108dp"
         android:backgroundTint="@color/purple_200"
         android:rotation="90"
         app:icon="@drawable/abc_vector_test"
         app:iconPadding="1dp"
         app:layout_constraintEnd_toStartOf="@+id/derecha"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/izquierda"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/recoger"

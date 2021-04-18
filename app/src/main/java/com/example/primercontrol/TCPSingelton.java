@@ -36,7 +36,8 @@ public class TCPSingelton extends Thread {
     public void run(){
 
         try {
-            Socket socket = new Socket("10.0.2.2",5000);
+            //En el host va la ip del pc
+            Socket socket = new Socket("192.168.20.22",5000);
             OutputStream os= socket.getOutputStream();
             OutputStreamWriter osw= new OutputStreamWriter(os);
             bwriter= new BufferedWriter(osw);
